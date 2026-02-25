@@ -24,10 +24,10 @@ p.title{
   font-weight:600;
 }
 
-/*For the lettering */
+/*For the lettering of Corruption*/
 .corruption {
-  font: 40px 'rubik glitch';
-  color: white;
+  font: 70px 'mea culpa';
+  color: black;
 }
 
 /*For the background of Corruption*/
@@ -35,16 +35,32 @@ p.title{
   border: 1px solid black;
   border-radius: 20%;
   width: 270px;
-  height:40px;
+  height:100px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  background-image: url(https://img.freepik.com/premium-photo/natural-white-gold-gray-marble-texture-patternmarble-wallpaper-high-quality-can-be-used-as-background-display-montage-your-top-view-products-mable-tile_1962-2787.jpg?w=1380)
+}
+
+/*For the Hover of Corruption*/
+#corruption:hover{
+    border: 1px solid black;
+  border-radius: 20%;
+  width: 270px;
+  height:100px;
+  text-align: center;
+  padding: 10px;
   background-image: url(https://tse2.mm.bing.net/th/id/OIP.WS7wU23IyYy1n4ixDZkiiQHaEK?pid=Api&h=220&P=0)
+}
+
+/*For the Link of Corruption*/
+#id-corruption:hover {
+  color:#FFF
 }
 
 /*For the lettering of life*/
 .life{
-  font: 40px 'shadows into light two';
-  color: white
+  font: 70px 'mea culpa';
+  color: black
 }
 
 /*For the background of Life*/
@@ -52,8 +68,34 @@ p.title{
    border: 1px solid black;
   border-radius: 20%;
   width: 270px;
-  height:45px;
+  height:100px;
   text-align: center;
-  padding: 20px;
-  background-image: url(https://tse1.mm.bing.net/th/id/OIP._t20y_8m9tPy0AnavAOuygHaEo?pid=Api&h=220&P=0)
+  padding: 10px;
+  background-image: url(https://img.freepik.com/premium-photo/natural-white-gold-gray-marble-texture-patternmarble-wallpaper-high-quality-can-be-used-as-background-display-montage-your-top-view-products-mable-tile_1962-2787.jpg?w=1380)
+}
+
+/*For the Hover of Life*/
+#life:hover{
+   border: 1px solid black;
+  border-radius: 20%;
+  width: 270px;
+  height:100px;
+  text-align: center;
+  padding: 10px;
+  background-image: url(https://tse2.mm.bing.net/th/id/OIP.RSzoqHXu3mhO0ovCOK4HrQHaEK?pid=Api&h=220&P=0)
+}
+
+/*For the link of Life*/
+#id-life:hover {
+  color: white
+}
+
+/*For the Line Breaks*/
+.break{
+  border:1px solid black;
+  background-image: url(https://img.freepik.com/premium-photo/natural-white-gold-gray-marble-texture-patternmarble-wallpaper-high-quality-can-be-used-as-background-display-montage-your-top-view-products-mable-tile_1962-2787.jpg?w=1380);
+    margin:30px;
+  margin-left:-20px;
+  margin-right:-20px;
+  width:5000px
 }
